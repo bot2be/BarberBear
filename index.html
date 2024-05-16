@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> BarberBear</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--Шапка-->
+	<header class="header">
+		<div class="head">
+			<div class="txthead">
+				<div class="logotxt"> BarberBear </div>
+				<div class="menu">
+					<div class="gl"> <a class="a-head" href="#main">Главная </a> </div>
+					<div class="srv"> <a class="a-head" href="#services">Услуги</a></div>
+					<div class="per"><a class="a-head" href="#masters">Мастера</a></div>
+					<div class="con"><a class="a-head" href="#contact">Контакты</a></div>
+				</div>
+			<button type="submit" class="battonhead"> <a href="#record"> <div class="TB1">Записаться</div> </a> </button>
+		</div>
+		</div>
+		<div class="box1" id="main"></div>
+			<div class="content">
+				<div class="logotxt2">BarberBear</div>
+				<div class="txtcont">Barbershop</div>
+				<div class="battoncont"> <a href="#record"> <div class="TB2">Записаться</div> </a> </div>
+				<a href="#services"><div class="battonprise" > <div class="TB3">Прайс - лист</div></div></a>
+			</div>
+			</header>
+<!---->
+
+<!--Мастера-->		
+		<div class="box2" id="masters">
+			<div class="headbox2">Мастера</div>
+			<div class="masters_content">
+				<div class="member">
+					<div class="img_Masters"><img src="img/img1.png" alt=""></div>
+						<header class="member__header">
+							<h3 class="member__name">Павел</h3>
+						</header>
+				</div>
+				<div class="member">				
+					<div class="img_Masters"><img src="img/img2.png" alt=""></div>
+						<header class="member__header">
+							<h3 class="member__name">Александр</h3>
+						</header>
+				</div>
+				<div class="member">
+					<div class="img_Masters"><img src="img/img3.png" alt=""></div>
+						<header class="member__header">
+							<h3 class="member__name">Артур</h3>
+						</header>
+				</div>
+			</div>
+		</div>
+<!---->
+
+<!--Услуги-->
+		<div class="box3">
+			<div class="headbox3" id="services">Услуги</div>
+				<div class="container">
+					<div class="services">
+						<div class="img_Serv"><img src="img/img_1.png" alt=""></div>
+							<div class="txth">Комплексная стрижка</div>
+							<div class="txt">Стрижка головы машинкой и ножницами, мытье головы, укладка волос. - 900 ₽</div>
+					</div>
+					<div class="services">
+						<div class="img_Serv"><img src="img/img_2.png" alt=""></div>
+							<div class="txth">Стрижка бороды</div>
+							<div class="txt">Стрижка, моделирование и контурирование опасной бритвой. - 500 ₽</div>
+					</div>
+					<div class="services">
+						<div class="img_Serv"><img src="img/img_3.png" alt=""></div>
+							<div class="txth">Стрижка машинкой</div>
+							<div class="txt">Стрижка одной насадкой, мытье головы - 400 ₽</div>
+					</div>
+					<div class="services">
+						<div class="img_Serv"><img src="img/img_4.png" alt=""></div>
+							<div class="txth">Экспресс стрижка</div>
+							<div class="txt">Стрижка волос машинкой с 	переходом, мытье головы, укладка волос. - 700 ₽</div>
+					</div>				
+				</div>
+		</div>
+<!---->
+
+<!--Запись-->
+<div class="box5" id="record">
+			
+			<div class="record_content">
+				<div class="record">
+					<div class="headbox5">Запись</div>
+					<form action="telegram.php" method="POST">
+        				<input type="text" id="name" name="user_name" placeholder="Ваше имя" required><br>
+        				<input type="tel" id="phone" name="user_phone" placeholder="Номер телефона" required><br>
+        				<button type="submit" class="battonform"><div class="TB4">Записаться</div></button>
+    				</form>
+				</div>
+				
+			</div>
+<!---->
+
+<!--Связь-->
+	<footer class="footer">
+		<div class="box4" id="contact">
+			<div class="headbox4">Свяжитесь с нами</div>
+
+			<div class="adr">Адрес: 
+				<div class="txtadr">ул. Революции 1905г д. 35</div>
+			</div>
+			<div class="num">Телефон: 
+				<div class="txtnum"> +7(908)684-27-11</div>
+			</div>
+			<div class="email">Электронный адрес:
+				<div class="txtemail"> barberbear@mail.ru</div>
+			</div>
+			<div class="map">
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad59c92ed801d79b5324e8a32dd76b061be7ebe8b9c7595b77492d03a7c834d80&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+			</div>
+		</div>
+	</footer>
+<!---->
+</body>
+</html>
+
+ 

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Появление формы при нажатии кнопки</title>
+    <script>
+        function toggleForm() {
+            var form = document.getElementById("form");
+            if (form.style.display === "none") {
+                form.style.display = "block";
+            } else {
+                form.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="toggleForm()">Нажми для отображения формы</button>
+    <div id="form" style="display: none;">
+        <h2>Форма</h2>
+        <form>
+            <!-- Добавьте поля для заполнения формы здесь -->
+            <input type="text" placeholder="Имя">
+            <input type="email" placeholder="Email">
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+</body>
+</html>
